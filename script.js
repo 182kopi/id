@@ -1,4 +1,4 @@
-const WA_NUMBER = "6285285651078"; // 085285651078 Bos
+const WA_NUMBER = "6282366214931"; // 082366214931 Bos
 let cart = JSON.parse(localStorage.getItem('182kopi_cart')||'{}');
 
 const products = [
@@ -16,7 +16,7 @@ const locations = [
 {name:"Gerobak Pusat - Panam",addr:"Jl. HR Soebrantas No 182, Panam",status:"BUKA - Ramai",jam:"16:00-23:00",omzet:"Rp 1.8jt/hari"},
 {name:"Gerobak 2 - Simpang Arifin",addr:"Jl. Arifin Ahmad",status:"BUKA",jam:"16:00-22:00",omzet:"Rp 1.2jt/hari"},
 {name:"Gerobak 3 - Sukakarya",addr:"Jl. Sukakarya",status:"TUTUP - Stok Habis",jam:"Besok 16:00",omzet:"-"},
-{name:"Central Kitchen",addr:"Sidoarjo, Jatim - Produksi Gula Aren",status:"PRODUKSI",jam:"08:00-17:00",omzet:"200L/hari"}
+{name:"Central Kitchen",addr:"Pekanbaru, Riau - Produksi Gula Aren",status:"PRODUKSI",jam:"08:00-17:00",omzet:"200L/hari"}
 ];
 
 function toggleMenu(){document.getElementById('navMenu').classList.toggle('show')}
